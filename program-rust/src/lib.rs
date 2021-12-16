@@ -34,11 +34,11 @@ pub fn process_instruction(
 
     let account_info_iter = &mut accounts.iter();
 
-    let our_token_program = next_account_info(account_info_iter)?;
+    let grpc_mint = next_account_info(account_info_iter)?;
 
     //very important we hard code this to be correct because otherwise they canpass a different supply
-    let our_token_program_key=Pubkey::from_str("GLoCBYmGqqUCZLy6XpmLUF9xAweUfe9R35pinscKzdZh").unwrap();
-    if *our_token_program.key != our_token_program_key{
+    let grpc_mint_key=Pubkey::from_str("GLoCBYmGqqUCZLy6XpmLUF9xAweUfe9R35pinscKzdZh").unwrap();
+    if *grpc_mint.key != grpc_mint_key{
         msg!("Incorrect Token Program");
         return Err(ProgramError::IncorrectProgramId);
     }
@@ -74,7 +74,7 @@ pub fn process_instruction(
 
 
 
-    let mint = Mint::unpack(&our_token_program.data.borrow()).map_err(|_| ProgramError::InvalidInstructionData)?;
+    let mint = Mint::unpack(&grpc_mint.data.borrow()).map_err(|_| ProgramError::InvalidInstructionData)?;
 
     let contractamportsBalance = contract_holder_mainid.lamports();
     let gcCoinsPerLamport =  mint.supply as f64 / contract_holder_mainid.lamports() as f64  ;
@@ -85,7 +85,7 @@ pub fn process_instruction(
     let ix = spl_token::instruction::burn(
         main_token_program.key,
         initializers_token_account.key,
-        our_token_program.key,
+        grpc_mint.key,
         initializers_main_account.key,
         &[&initializers_main_account.key],
         amount,
@@ -93,7 +93,7 @@ pub fn process_instruction(
 
      invoke(
           &ix,
-          &[initializers_token_account.clone(), our_token_program.clone(), initializers_main_account.clone(),main_token_program.clone()]
+          &[initializers_token_account.clone(), grpc_mint.clone(), initializers_main_account.clone(),main_token_program.clone()]
      );
 
     //send swapper the SOL
