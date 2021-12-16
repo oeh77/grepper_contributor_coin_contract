@@ -12,7 +12,7 @@ Ex: Sally has inputted 20 Grepper answers, 10 of which have a quality score that
 
 
 # The Donation System 
-Anyone who is helped by a Grepper answer or wants to support the community can donate to all “Grepper Contributors” by donating to a “smart contract” found [here](src/program-rust/lib.rs). This contract holds SOL and any holder of GRPC can swap their GRPC for SOL based on the amount of SOL held in the contract and the amount of GRPC outstanding.  Ex: Let’s say sally has 5,000 GRPC and wants to swap them for SOL. If at the time there are 1,000,000GRPC outstanding and the contract holds 10SOL.  Sally can Swap her 5k GRPC for .05 SOL (.05 = 10/1000000 * 5000) 
+Anyone who is helped by a Grepper answer or wants to support the community can donate to all “Grepper Contributors” by donating to a “smart contract” found [here](https://github.com/CodeGrepper/grepper_contributor_coin_contract/tree/main/program-rust/src). This contract holds SOL and any holder of GRPC can swap their GRPC for SOL based on the amount of SOL held in the contract and the amount of GRPC outstanding.  Ex: Let’s say sally has 5,000 GRPC and wants to swap them for SOL. If at the time there are 1,000,000GRPC outstanding and the contract holds 10SOL.  Sally can Swap her 5k GRPC for .05 SOL (.05 = 10/1000000 * 5000) 
 
 *Note: SOL can be swapped for almost any currency on a number of exchanges such as coinbase.*
 
