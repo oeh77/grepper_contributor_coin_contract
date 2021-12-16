@@ -1,3 +1,7 @@
+# About Grepper ([www.codegrepper.com](https://www.codegrepper.com))
+Grepper is a platform to help developers solve technical problems. Grepper is powered by an amazing community of 200k(and growing fast) developers. Developers within the community contribute answers to technical problems primarily through the Grepper browser extension which allows a user to quickly add a “code snippet” as an answer to a problem they ran into and recently solved. At present the community has put in 318k answers, which together have been viewed over 62 million times.
+
+
 # How Grepper Contributor Coin (GRPC) works.
 Coins will be minted on a daily basis, to users who have contributed helpful answers/content to Grepper. Initially 1 GRPC will be issued per answer per day for answers that rank in the top 30% quality score.  Additionally, in order to prevent spam answers, for  “bad answers” (answers that have a quality score in the bottom 20% of answers) 1 GRPC will be deducted from that day's earnings. 
 
