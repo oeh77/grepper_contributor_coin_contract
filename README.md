@@ -3,7 +3,7 @@ Grepper is a platform to help developers solve technical problems. Grepper is po
 
 
 # Grepper Contributor Coin (GRPC)
-The purpose of GRPC is to provide a tangible reward as an incentive for developers to contribute answers, feedback, engagement and content to the community.
+The purpose of GRPC is to provide a tangible reward as an incentive for developers to contribute answers, feedback, engagement and content to the Grepper community.
  “Grepper Contributor Coin (GRPC)” is a social token built on the Solana blockchain. 
 
 ## How GRPC Is Distributed
