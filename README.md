@@ -23,6 +23,5 @@ Anyone who is helped by a Grepper answer or wants to support the community can d
 
 When the GRPC tokens are swapped for SOL the contract will burn the GRPC therefore keeping the value of the GRPC coins the same.
 
-*Note: SOL can be swapped for almost any currency on a number of exchanges such as coinbase.*
 
 
