@@ -1,28 +1,25 @@
 [package]
-name = "solana-bpf-helloworld"
+name = "Grepper-Contributor-Coin-Contract"
 version = "0.0.1"
-description = "Example template program written in Rust"
-authors = ["Solana Maintainers <maintainers@solana.com>"]
-repository = "https://github.com/solana-labs/solana"
+description = "Contract to Swap GRPC with SOL"
+authors = ["Grepper Support <support@codegrepper.com>"]
+repository = "https://github.com/CodeGrepper/grepper_contributor_coin_contract"
 license = "Apache-2.0"
-homepage = "https://solana.com/"
-edition = "2018"
+homepage = "https://www.codegrepper.com"
+edition = "2021"
 
 
 [features]
 no-entrypoint = []
 
 [dependencies]
-borsh = "0.9.1"
+borsh = "0.9.3"
 borsh-derive = "0.9.1"
-solana-program = "=1.8.1"
-spl-token = { version = "3.2", features = [ "no-entrypoint" ] }
-
-[dev-dependencies]
-solana-program-test = "=1.8.1"
-solana-sdk = "=1.8.1"
-solana-core = "1.8.1"
+solana-program = "=1.7.4"
+spl-token = { version = "=3.2", features = [ "no-entrypoint" ]}
+solana-sdk = { version = "=1.7.4", default-features = false }
+spl-associated-token-account = {version = "1.0.2",features = ["no-entrypoint"]}
 
 [lib]
-name = "helloworld"
+name = "grepper_contributor_coin_contract"
 crate-type = ["cdylib", "lib"]
