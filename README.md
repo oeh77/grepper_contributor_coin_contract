@@ -11,7 +11,7 @@ The purpose of GREPCC is to provide a tangible reward as an incentive for develo
 GREPCC is distributed to Grepper Contributors through two broad means: User Tips & Top Quality Answers.   
 
 ### User Tips
-Grepper users with a white belt and above, will be able to give a certain number of GREPCC tips to other users when an answer helps them out. The number of tips a user can give daily depends on their belt ranking. 
+Grepper users with a white belt and above, will be able to give a certain number of GREPCC tips to other users. The number of tips a user can give daily depends on their belt ranking. 
 
 | Developer Belt Ranking|Tips Per Day (1 GREPCC per Tip)|
 | ------------- | ------------- |
