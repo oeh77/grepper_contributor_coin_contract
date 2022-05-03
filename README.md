@@ -10,6 +10,22 @@ The purpose of GREPCC is to provide a tangible reward as an incentive for develo
 
 GREPCC is distributed to Grepper Contributors through two broad means: User Tips & Top Quality Answers.   
 
+### User Tips
+Grepper users with a white belt and above, will be able to give a certain number of GREPCC tips to other users when an answer helps them out. The number of tips a user can give daily depends on their belt ranking. 
+
+| Developer Belt Ranking|Tips Per Day (1 GREPCC per Tip)|
+| ------------- | ------------- |
+| No Belt       |0              |
+| White Belt    |1              |
+| Yellow Belt   |2              |
+| Orange Belt   |3              |
+| Green Belt    |5              |
+| Blue Belt     |8              |
+| Purple Belt   |12             |
+| Brown Belt    |20             |
+| Black Belt    |30             |
+
+
 ### Top Quality Answers
 Coins will be minted on a daily basis, to users who have contributed helpful answers/content to Grepper. Initially 1 GREPCC will be issued per answer per day for answers that rank in the top 30% quality score.  Additionally, in order to prevent spam answers, for  “bad answers” (answers that have a quality score in the bottom 20% of answers) 1 GREPCC will be deducted from that day's earnings. 
 
