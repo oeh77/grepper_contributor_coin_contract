@@ -10,7 +10,7 @@ The purpose of GREPCC is to provide a tangible reward as an incentive for develo
 
 GREPCC is distributed to Grepper Contributors through two broad means: User Tips & Top Quality Answers.   
 
-###Top Quality Answers
+### Top Quality Answers
 Coins will be minted on a daily basis, to users who have contributed helpful answers/content to Grepper. Initially 1 GREPCC will be issued per answer per day for answers that rank in the top 30% quality score.  Additionally, in order to prevent spam answers, for  “bad answers” (answers that have a quality score in the bottom 20% of answers) 1 GREPCC will be deducted from that day's earnings. 
 
 Ex: Sally has inputted 20 Grepper answers, 10 of which have a quality score that fall within the top 30% of answers and 2 of which fall within the bottom 20% of answers. Sally will earn 8 newly minted GREPCC per day.  If Sally sets the 2 bad answers to private or deletes them, then those answers will not be deducted from her earnings, so she will earn 10 GREPCC a day.  Users can’t earn negative coins daily, so if a user only has 2 answers and they are both bad, they will simply earn 0 GREPCC a day. 
