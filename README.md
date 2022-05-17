@@ -6,7 +6,7 @@ Grepper is a platform to help developers solve technical problems. Grepper is po
 The purpose of GREPCC is to provide a fun reward system as incentive for developers to contribute answers, feedback, engagement and content to the Grepper community.
  “Grepper Contributor Coin (GREPCC)” is a social token built on the Solana blockchain. 
 
-## How GREPCC Is Distributed
+## How GREPCC is Distributed
 
 GREPCC is distributed to Grepper Contributors through two broad means: User Tips & Top Quality Answers.   
 
